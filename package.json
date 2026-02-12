@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass --watch src/styles/scss:src/styles/css --style=expanded",
+    "sass:build": "sass src/styles/scss:src/styles/css --style=compressed"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/sabyrkazen/positivus/issues"
   },
-  "homepage": "https://github.com/sabyrkazen/positivus#readme"
+  "homepage": "https://github.com/sabyrkazen/positivus#readme",
+  "devDependencies": {
+    "sass": "^1.97.3"
+  }
 }
