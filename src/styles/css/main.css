@@ -347,4 +347,33 @@ h4 {
   transition-duration: inherit;
 }
 
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--button-height);
+  padding-inline: 25px;
+  font-size: 20px;
+  color: var(--color-light);
+  background-color: var(--color-dark);
+  border: var(--border);
+  border-radius: var(--border-radius);
+}
+@media (hover: hover) {
+  .button:hover {
+    color: var(--color-dark);
+    background-color: var(--color-accent);
+  }
+}
+@media (hover: none) {
+  .button:active {
+    color: var(--color-dark);
+    background-color: var(--color-accent);
+  }
+}
+.button--transparent {
+  color: var(--color-dark);
+  background-color: transparent;
+}
+
 /*# sourceMappingURL=main.css.map */
