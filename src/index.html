@@ -65,7 +65,7 @@
     </header>
 
     <main class="content">
-      <section class="section section-hidden-x container">
+      <section class="section section--hidden-x container">
         <div class="section__body">
           <div class="hero">
             <div class="hero__main">
@@ -74,23 +74,20 @@
                   Navigating the digital landscape for success
                 </h1>
                 <div class="hero__description">
-                  <p>
-                    Our digital marketing agency helps businesses grow and
-                    succeed online through a range of services including SEO,
-                    PPC, social media marketing, and content creation.
-                  </p>
+                  <p>Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p>
                 </div>
-                <button type="button" class="hero__button button">
+                <button
+                  class="hero__button button"
+                  type="button"
+                >
                   Book a consultation
                 </button>
               </div>
               <img
+                class="hero__image"
                 src="./assets/illustrations/hero-bg.svg"
                 alt=""
-                class="hero__image"
-                width="600"
-                height="515"
-                loading="lazy"
+                width="600" height="515" loading="lazy"
               />
             </div>
             <div class="hero__partners">
@@ -98,62 +95,50 @@
               <ul class="hero__partners-list">
                 <li class="hero__partners-item">
                   <img
+                    class="hero__partners-image"
                     src="./assets/icons/partners/amazon.svg"
-                    alt="Amazon logo"
-                    class="hero__partners-image"
-                    width="130"
-                    height="48"
-                    loading="lazy"
+                    alt="Amazon"
+                    width="130" height="48" loading="lazy"
                   />
                 </li>
                 <li class="hero__partners-item">
                   <img
+                    class="hero__partners-image"
                     src="./assets/icons/partners/dribbble.svg"
-                    alt="Dribbble logo"
-                    class="hero__partners-image"
-                    width="126"
-                    height="48"
-                    loading="lazy"
+                    alt="Dribble"
+                    width="130" height="48" loading="lazy"
                   />
                 </li>
                 <li class="hero__partners-item">
                   <img
+                    class="hero__partners-image"
                     src="./assets/icons/partners/hubspot.svg"
-                    alt="Hubspot logo"
-                    class="hero__partners-image"
-                    width="128"
-                    height="48"
-                    loading="lazy"
+                    alt="HubSpot"
+                    width="130" height="48" loading="lazy"
                   />
                 </li>
                 <li class="hero__partners-item">
                   <img
+                    class="hero__partners-image"
                     src="./assets/icons/partners/notion.svg"
-                    alt="Notion logo"
-                    class="hero__partners-image"
-                    width="145"
-                    height="48"
-                    loading="lazy"
+                    alt="Notion"
+                    width="130" height="48" loading="lazy"
                   />
                 </li>
                 <li class="hero__partners-item">
                   <img
+                    class="hero__partners-image"
                     src="./assets/icons/partners/netflix.svg"
-                    alt="Netflix logo"
-                    class="hero__partners-image"
-                    width="125"
-                    height="48"
-                    loading="lazy"
+                    alt="Netflix"
+                    width="130" height="48" loading="lazy"
                   />
                 </li>
                 <li class="hero__partners-item">
                   <img
-                    src="./assets/icons/partners/zoom.svg"
-                    alt="Zoom logo"
                     class="hero__partners-image"
-                    width="110"
-                    height="48"
-                    loading="lazy"
+                    src="./assets/icons/partners/zoom.svg"
+                    alt="Zoom"
+                    width="130" height="48" loading="lazy"
                   />
                 </li>
               </ul>
@@ -165,47 +150,10 @@
 
     <dialog class="mobile-overlay visible-mobile" id="mobileOverlay">
       <form class="mobile-overlay__close-button-wrapper" method="dialog">
-        <li class="hero__partners-item">
-          <img
-            src=""
-            alt=""
-            class="hero__partners-image"
-            width=""
-            height=""
-            loading="lazy"
-          />
-        </li>
-        <li class="hero__partners-item">
-          <img
-            src=""
-            alt=""
-            class="hero__partners-image"
-            width=""
-            height=""
-            loading="lazy"
-          />
-        </li>
-        <li class="hero__partners-item">
-          <img
-            src=""
-            alt=""
-            class="hero__partners-image"
-            width=""
-            height=""
-            loading="lazy"
-          />
-        </li>
-        <li class="hero__partners-item">
-          <img
-            src=""
-            alt=""
-            class="hero__partners-image"
-            width=""
-            height=""
-            loading="lazy"
-          />
-        </li>
-        <button class="mobile-overlay__close-button cross-button" type="submit">
+        <button
+          class="mobile-overlay__close-button cross-button"
+          type="submit"
+        >
           <span class="visually-hidden">Close navigation menu</span>
         </button>
       </form>
