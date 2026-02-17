@@ -322,6 +322,9 @@ h4 {
   align-items: center;
   column-gap: 40px;
 }
+.section__header:not(:last-child) {
+  margin-bottom: 80px;
+}
 .section__description {
   max-width: 580px;
 }
