@@ -423,6 +423,22 @@ h4, .h4 {
   color: var(--color-dark);
   background-color: transparent;
 }
+.button--accent {
+  color: var(--color-dark);
+  background-color: var(--color-accent);
+}
+@media (hover: hover) {
+  .button--accent:hover {
+    color: var(--color-accent);
+    background-color: var(--color-dark);
+  }
+}
+@media (hover: none) {
+  .button--accent:active {
+    color: var(--color-accent);
+    background-color: var(--color-dark);
+  }
+}
 
 .burger-button {
   padding: 0;
