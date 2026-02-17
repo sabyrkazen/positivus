@@ -377,8 +377,8 @@ h4 {
 
 .button {
   display: inline-flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   height: var(--button-height);
   padding-inline: 25px;
   font-size: 20px;
@@ -489,8 +489,8 @@ h4 {
 }
 .mobile-overlay__list {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   row-gap: 30px;
   min-height: 80vh;
