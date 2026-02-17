@@ -317,6 +317,20 @@ h4 {
 .section-hidden-x {
   overflow-x: hidden;
 }
+.section__header {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+}
+.section__description {
+  max-width: 580px;
+}
+
+.puddle-bg {
+  padding-inline: 7px;
+  background-color: var(--color-accent);
+  border-radius: var(--border-radius-small);
+}
 
 .button {
   display: inline-flex;

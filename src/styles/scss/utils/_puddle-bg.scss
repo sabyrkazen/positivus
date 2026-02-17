@@ -1,0 +1,7 @@
+@use '../helpers' as *;
+
+.puddle-bg {
+  padding-inline: 7px;
+  background-color: var(--color-accent);
+  border-radius: var(--border-radius-small);
+}

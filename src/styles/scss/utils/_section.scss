@@ -6,4 +6,14 @@
   &-hidden-x {
     overflow-x: hidden;
   }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+  }
+
+  &__description {
+    max-width: 580px;
+  }
 }
