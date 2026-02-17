@@ -264,19 +264,19 @@ h4 {
   font-weight: 500;
 }
 
-h1 {
+h1, .h1 {
   font-size: clamp(43px, 4.1666666667vw, 60px);
 }
 
-h2 {
+h2, .h2 {
   font-size: clamp(36px, 2.7777777778vw, 40px);
 }
 
-h3 {
+h3, .h3 {
   font-size: clamp(26px, 2.0833333333vw, 30px);
 }
 
-h4 {
+h4, .h4 {
   font-size: clamp(18px, 1.3888888889vw, 20px);
 }
 
