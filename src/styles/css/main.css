@@ -311,6 +311,46 @@ h4 {
   }
 }
 
+.grid {
+  --gridColumns: 1;
+  display: grid;
+  grid-template-columns: repeat(var(--gridColumns), 1fr);
+  gap: 40px;
+}
+.grid--i {
+  --gridColumns: 2;
+}
+.grid--i {
+  --gridColumns: 3;
+}
+.grid--i {
+  --gridColumns: 4;
+}
+.grid--i {
+  --gridColumns: 5;
+}
+.grid--i {
+  --gridColumns: 6;
+}
+.grid--i {
+  --gridColumns: 7;
+}
+.grid--i {
+  --gridColumns: 8;
+}
+.grid--i {
+  --gridColumns: 9;
+}
+.grid--i {
+  --gridColumns: 10;
+}
+.grid--i {
+  --gridColumns: 11;
+}
+.grid--i {
+  --gridColumns: 12;
+}
+
 .section {
   padding-block: var(--section-padding-y);
 }
